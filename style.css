@@ -120,6 +120,6 @@ form input, form textarea, form select {
 .forecast-container span {
     margin-right: 20px;
 }
-.col-4:nth-child(2n) {
+.col-md-4:nth-child(2n) {
     background-color: rgb(38, 41, 54);
 }
