@@ -1,0 +1,125 @@
+body {
+    color: rgb(191, 193, 200);
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: rgb(30, 32, 43);
+}
+p{
+    margin: 0;
+}
+@media (min-width: 1200px){
+    .container{max-width: 80%;}
+}
+.logo{
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    margin-left: 4px;
+}
+nav{
+    background-color: #1e202b;
+    font-weight: 500;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+   padding: 1rem;
+}
+}
+
+.find-location {
+    position: relative;
+    margin-bottom: 70px;
+}
+.hero {
+    background-size: cover;
+    min-height: 350px;
+    padding: 70px 0px;
+}
+.find-location input[type="text"] {
+    width: 100%;
+    color: white;
+    padding: 20px 50px 20px 20px;
+    background: rgb(30, 32, 43);
+}
+.find-location input[type="submit"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0px 40px;
+}
+
+form input[type="submit"] {
+    color: white;
+    background: rgb(0, 154, 216);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+form input, form textarea, form select {
+    outline: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.forecast-container {
+
+    margin-top: -150px;
+    margin-bottom: 50px;
+    background: rgb(50, 53, 68);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.forecast-content {
+    text-align: left;
+
+    padding: 50px 20px 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.location {
+    font-size: 1.28571em;
+    font-weight: 400;
+}
+.degree {
+    font-size: 1.71429em;
+    color: white;
+    font-weight: 700;
+}
+.num {
+    font-size: 4.5rem;
+    margin-right: 30px;
+    font-weight: 400;
+}
+.forecast-icon {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.custom {
+    color: rgb(0, 154, 216);
+    margin: 20px 0px;
+}
+.forecast-container span img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.forecast-container span {
+    margin-right: 20px;
+}
+.col-4:nth-child(2n) {
+    background-color: rgb(38, 41, 54);
+}
